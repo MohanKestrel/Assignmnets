@@ -1,0 +1,171 @@
+:root {
+  --clr-neon: hsl(317, 65%, 41%);
+  /* --clr-neon: hsl(327, 74%, 48%); */
+  /* --clr-neon: hsl(293, 54%, 49%); */
+  /* --clr-neon: hsl(206, 85%, 54%); */
+  /* --clr-neon: hsl(98, 62%, 52%); */
+  /* --clr-neon: hsl(0, 61%, 58%); */
+  /* --clr-neon: hsl(24, 20%, 95%); */
+  ---clr-bg: hsl(0, 21%, 89%);
+}
+
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #abbdd8;
+}
+
+h3,
+p {
+  margin: 0;
+}
+
+h1 {
+  margin-left: 25%;
+  padding-bottom: 20px;
+}
+
+.viewBar {
+
+  background: linear-gradient(-20deg, #274a61, #3e365e);
+  margin: auto auto;
+  margin-top: 6rem;
+  margin-bottom: 15px;
+  padding: 3rem 0rem 1rem 1rem;
+  border-radius: 1rem;
+  background-repeat: none;
+  background-size: cover;
+  color: white;
+  /* display: grid; */
+  /* grid-template-rows: repeat(2,1fr); */
+  align-items: center;
+  box-shadow: 0 0 0.7rem gray;
+  width: 70%;
+
+}
+
+.inputGroup .input,
+.btn {
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.inputGroup {
+  border: 1px solid #ccc;
+  background: #fff;
+  border-radius: 3rem;
+  display: flex;
+  margin: 0rem 6rem 2rem;
+
+}
+
+.input {
+  flex-grow: 1;
+  outline: 0;
+  font-size: 2rem;
+  margin-left: 1rem;
+  border-radius: 3rem;
+
+}
+
+::placeholder {
+  color: #cdcbd7;
+}
+
+.btn {
+  color: #fff;
+  background: rgb(151, 47, 165, 0.8);
+  padding: 1rem 4rem;
+  border-radius: 3rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin: 12px;
+  cursor: pointer;
+  outline: 0;
+  display: flex;
+  height: 4rem;
+  text-align: center;
+}
+
+.btn .icon {
+  margin: 0 0.7rem;
+  width: 1.5rem;
+  align-self: center;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+
+
+.madcform {
+
+  background: linear-gradient(-20deg, #274a61, #3e365e);
+  color: #fff;
+  box-shadow: 0 0 0.7rem gray;
+}
+
+.madcform input {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 15px;
+  border-radius: 2rem;
+  height: 4rem;
+  margin: 11px;
+  box-shadow: 0 0 0.5rem gray;
+
+}
+
+.madcform input[type="select"] {
+  border: none;
+}
+
+
+.result {
+  text-decoration: underline;
+  padding: 1rem 7rem;
+  font-size: 2rem;
+  /* font-family: ui-rounded; */
+  color: white;
+}
+
+.result1 {
+  padding: 1rem 7rem;
+  font-size: 2rem;
+  /* font-family: ui-rounded; */
+  color: white;
+}
+
+.InputLabel {
+  padding: 1rem 7rem;
+  font-size: 15px;
+  /* font-family: ui-rounded; */
+  color: aquamarine;
+}
+
+.resvalue {
+  color: coral;
+
+}
+
+.savetext {
+  padding: 1rem 7rem;
+  font-size: 12px;
+  /* font-family: ui-rounded; */
+  color: aquamarine;
+  font-style: italic;
+}
