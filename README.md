@@ -2,7 +2,7 @@
 
 ## Assignment11.JS
 ## Assignment-2.JS
-#### Assignment-3 ( React Project with Minimum Absolute Difference Calculator in React, Node and SQL)
+## Assignment-3 ( React Project with Minimum Absolute Difference Calculator in React, Node and SQL)
 
 ## Scripts
 ********************************************************************************************************
@@ -28,3 +28,6 @@ Open [http://localhost:8081]
 With Enabled CORS with 3000 as per React Project
 
 ********************************************************************************************************
+## Database Details
+
+SQL - File attached 
