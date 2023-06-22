@@ -1,4 +1,4 @@
-## Assignments:
+## Assessment:
 
 #### Assignment-1.JS
 #### Assignment-2.JS
